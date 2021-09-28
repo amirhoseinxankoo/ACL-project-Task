@@ -1,0 +1,17 @@
+  // $permissions = Permission::get();
+        // foreach ($permissions as $permission) {
+        //     Gate::define($permission->name, function ($user){
+        //         if ($user->permissions->count()) {
+        //             foreach ($user->permissions as $u) {
+        //                return $u->id == $user->id;
+        //             }
+        //         }
+        //     });
+        // }
+        // $user = auth()->user();
+        // dd(Session::get('user'));
+        // foreach($permissions as $per){
+        //     Gate::define($per->name, function ($user){
+        //         return true;
+        //     });
+        // }
